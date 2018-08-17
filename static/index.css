@@ -1,0 +1,83 @@
+#app{
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#send{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#table-heads{
+    width: 100%;
+}
+
+.status{
+    color: green
+}
+.status.error{
+    color: red
+}
+
+.mdl-tabs__panel > *{
+    width: 100%
+}
+
+#panel-resonse-body{
+    width: 100%;
+}
+
+#loading{
+    margin-top: 32px;
+    margin-bottom:0; 
+    width: 100%;
+    visibility: hidden;
+}
+
+#loading.loading{
+    visibility: visible;
+}
+
+#panel-resonse-body .mdl-textfield {
+    width: 100%
+}
+
+#tab-heads input{
+    outline: none
+}
+
+.table-head{
+background-color: #eeeeee
+}
+
+.btn-close{
+    visibility: hidden
+}
+
+.btn-close:hover{
+    cursor: pointer;
+}
+
+.head-row:hover .btn-close{
+    visibility: visible
+}
+
+.mdl-selectfield{
+    width: auto;
+}
+.mdl-selectfield__box{
+    border: none
+}
+
+#response-head{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%
+}
+
+#response-head span:nth-child(1){
+    flex-grow:1
+}
+

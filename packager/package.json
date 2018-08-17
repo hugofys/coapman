@@ -1,0 +1,27 @@
+{
+  "name": "coapman",
+  "version": "1.0.0",
+  "main": "main.js",
+  "homepage": ".",
+  "description": "A Vue.js project",
+  "author": "Hugo <hugo.li@ericsson.com>",
+  "private": true,
+  "scripts": {
+    "pkg": "electron-packager . CoAPman --out ../release --overwrite",
+    "pkg:win": "electron-packager . CoAPman --win --out ../release --arch=x64  --overwrite",
+    "pkg:mac": "electron-packager . CoAPman --mac --out ../release  --overwrite"
+  },
+  "dependencies": {
+    "coap": "^0.22.0",
+    "node-tlv": "^1.5.7"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
